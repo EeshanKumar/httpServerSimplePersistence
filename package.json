@@ -1,0 +1,32 @@
+{
+  "name": "httpServerSimplePersistence",
+  "version": "0.1.0",
+  "description": "HTTP Server With Simple Persistence",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EeshanKumar/httpServerSimplePersistence.git"
+  },
+  "author": "me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EeshanKumar/httpServerSimplePersistence/issues"
+  },
+  "homepage": "https://github.com/EeshanKumar/httpServerSimplePersistence",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.3"
+  }
+}
